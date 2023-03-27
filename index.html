@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatacuties</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="search-container">
+          <input type="text" id="search-input" placeholder="Search animals...">
+          <button id="search-button">Search</button>
+        </div>
+      </div>
+      <button id="reset-btn">Reset Votes</button>
+    </header>
+    <main>
+      <section id="animals-list">
+        <h2>Animals</h2>
+        <ul>
+          <!-- Animals list will be dynamically generated -->
+        </ul>
+      </section>
+      <section id="animal-details">
+        <h2>Animal Details</h2>
+        <div id="animal-image-container">
+          <img id="animal-image" src="" alt="Animal Image">
+        </div>
+        <div id="animal-votes-container">
+          <p id="animal-votes">0</p>
+          <button id="add-vote-btn">Add Vote</button>
+        </div>
+      </section>
+      <section id="add-animal">
+        <h2>Add Animal</h2>
+        <form id="add-animal-form">
+          <label for="animal-name">Name:</label>
+          <input type="text" id="animal-name" name="animal-name" required>
+          <label for="animal-image-url">Image URL:</label>
+          <input type="url" id="animal-image-url" name="animal-image-url" required>
+          <button type="submit">Add Animal</button>
+        </form>
+      </section>
+    </main>
+    <script src=./src/index.js ></script>
+</body>
+</html>

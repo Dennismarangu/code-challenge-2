@@ -1,0 +1,39 @@
+{
+    "animals": [
+      {
+        "id": 1,
+        "name": "Kitty",
+        "description": "A cute and fluffy cat.",
+        "image": "https://i.imgur.com/4M4pAaC.jpg",
+        "votes": 0
+      },
+      {
+        "id": 2,
+        "name": "Puppy",
+        "description": "An adorable and playful dog.",
+        "image": "https://i.imgur.com/VJRGkpb.jpg",
+        "votes": 8
+      },
+      
+
+      {
+
+        "id": 3,
+        "name": "Mr. Cute",
+        "description": "An adorable and playful cat",
+        "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif",
+        "votes": 0
+      },
+
+      {
+
+        "id": 4,
+        "name": "Mx. Monkey",
+        "description": "A cheeky monkey",
+        "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
+        "votes": 0 
+      }
+      
+
+    ]
+}
